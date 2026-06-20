@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/api/tasks";
+const API_URL = "https://cloud-task-manager-3as8.onrender.com/api/tasks";
 
 const taskForm = document.getElementById("taskForm");
 const taskInput = document.getElementById("taskInput");
