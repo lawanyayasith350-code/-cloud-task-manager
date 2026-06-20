@@ -1,4 +1,11 @@
 # Cloud Task Manager
+## Live Demo
+
+Frontend App: https://candid-kitsune-16bf6b.netlify.app
+
+Backend API: https://cloud-task-manager-3as8.onrender.com
+
+Tasks API Endpoint: https://cloud-task-manager-3as8.onrender.com/api/tasks
 
 Cloud Task Manager is a simple full-stack task management application.
 
