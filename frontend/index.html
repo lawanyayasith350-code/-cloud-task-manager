@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloud Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="card">
+      <div class="header">
+        <p class="tag">Day 1 Frontend Project</p>
+        <h1>Cloud Task Manager</h1>
+        <p class="subtitle">Add, complete, delete and save your daily tasks.</p>
+      </div>
+
+      <form id="taskForm" class="task-form">
+        <input 
+          type="text" 
+          id="taskInput" 
+          placeholder="Enter a task..." 
+          autocomplete="off"
+          required 
+        />
+
+        <input 
+          type="date" 
+          id="dueDateInput" 
+        />
+
+        <button type="submit">Add Task</button>
+      </form>
+
+      <div class="stats">
+        <span id="totalTasks">Total: 0</span>
+        <span id="completedTasks">Completed: 0</span>
+      </div>
+
+      <ul id="taskList" class="task-list"></ul>
+
+      <p id="emptyMessage" class="empty-message">
+        No tasks yet. Add your first task.
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
